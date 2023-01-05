@@ -1,0 +1,30 @@
+@charset "HTF-8";
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --azul-botao: #167BF7;
+    --preto-fundo: #00030C;
+}
+
+body{
+    background-color: var(--preto-fundo);
+    color: var(--branco-principal);
+
+}
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+}
+
+.botao__compra{
+    background-color: var(--azul-botao);
+    padding: 16px;
+    border-radius: 18px;
+}
+
